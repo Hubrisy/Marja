@@ -1,0 +1,67 @@
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+h2{
+    font-size: 23px;
+}
+input{
+    height: 25px;
+    width: 200px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+
+
+.math_block{
+    height: 900px;
+    width: 700px;
+    border: 1px solid black;
+    margin: 20px auto;
+}
+.item_block{
+    width: 350px;
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+}
+.item_desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item_result{
+    margin-left: 50px;
+    font-size: 20px;
+}
+.price{
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+.result_one{
+   max-width: 500px;
+   margin: 50px auto;
+   display: flex;
+   justify-content: space-between;
+   font-size: 20px;
+}
+.result_two{
+    text-align: center;
+}
+.result_two p{
+    font-size: 18px;
+}
+
+.btn_block{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+button{
+    height: 50px;
+    width: 200px;
+    font-size: 18px;
+    font-weight: 700;
+}

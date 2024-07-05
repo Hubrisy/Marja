@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Цена лида(Денис лох)</h1>
+    <div class="math_block">
+        <div class="item_block">
+            <div class="item_desc">
+                <h2>Маржа товара</h2>
+                <div>
+                    <input id="item" type="text" placeholder="введите данные">
+                </div>
+            </div>
+            <div class="price">
+                <span id="item_price">price</span>
+            </div>
+        </div>
+        <div class="item_block">
+            <div class="item_desc">
+                <h2>Средний чек</h2>
+                <div>
+                    <input id="check" type="text" placeholder="введите данные">
+                </div>
+            </div>
+            <div class="price">
+                <span id="check_price">price</span>
+            </div>
+        </div>
+        <div class="item_block">
+            <div class="item_desc">
+                <h2>Цена доллара</h2>
+                <div>
+                    <input id="dollar" type="text" placeholder="введите данные" value="">
+                </div>
+            </div>
+            <div class="price">
+                <span id="dollar_price">price</span>
+            </div>
+        </div>
+        <div class="item_block">
+            <div class="item_desc">
+                <h2>Кол-во лидов</h2>
+                <div>
+                    <input id="leads" type="text" placeholder="введите данные" value="">
+                </div>
+            </div>
+            <div class="price">
+                <span id="amount_leads">price</span>
+            </div>
+        </div>
+        <div class="item_block">
+            <div class="item_desc">
+                <h2>Допродажа</h2>
+                <div>
+                    <input id="sales" type="text" placeholder="введите данные" value="">
+                </div>
+            </div>
+            <div class="price">
+                <span id="sales_price">price</span>
+            </div>
+        </div>
+        <div class="item_block">
+            <div class="item_desc">
+                <h2>Апрув %</h2>
+                <div>
+                    <input id="approve" type="text" placeholder="введите данные" value="">
+                </div>
+            </div>
+            <div class="price">
+                <span id="approve_percent">price</span>
+            </div>
+        </div>
+        <div class="result_one">
+            <div id="callcenter">КЦ:</div>
+            <div id="income">Доход:</div>
+        </div>
+        <div class="result_two">
+            <h2>Допустимые затраты на рекламу:</h2>
+            <p>С учетом чистой маржи(если нет лида):<span id="cleanprice"></span></p>
+            <p>С доп продажами(Средний чек):<span id="checkprice"></span></p>
+        </div>
+        <div class="btn_block" id="button">
+            <button>Расчет</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
